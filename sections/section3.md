@@ -1,6 +1,6 @@
 ---
-title: About
-type: Contact
+title: Contact
+type: section
 ---
 <h2>Contact Start Bootstrap</h2>
 <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
