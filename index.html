@@ -2,7 +2,9 @@
 layout: page
 ---
 
-	{{page.sites}}
+	{% for page in page.sites %}
+		page.title
+	{% endfor %}
 	
     <!-- Download Section -->
     <section id="download" class="content-section text-center">
