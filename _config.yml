@@ -1,6 +1,6 @@
 
 permalink: /blog/:title.html
 
-gems:
-  - jekyll-pandoc
-
+markdown: kramdown
+kramdown:
+  input: GFM
