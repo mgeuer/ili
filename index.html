@@ -5,9 +5,11 @@ title: start
 
 	<ul>
 	{% for page in site.pages %}
+		{% if page.type == 'section' %}
 		<li>
-		{{page.title}}
+			{% include section.html content=page.content title=page.title %}
 		</li>
+		{% endif %}
 	{% endfor %}
 	</ul>
 	
