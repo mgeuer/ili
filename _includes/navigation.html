@@ -17,15 +17,13 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+					{% for page in site.pages %}
+						{% if page.type == 'section' %}
+							<li>
+								<a class="page-scroll" href="#{{page.title}}">{{page.title}}</a>
+							</li>
+						{% endif %}
+					{% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
