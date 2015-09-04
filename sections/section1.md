@@ -1,5 +1,4 @@
 ---
-layout: section
 id: about
 title: About
 ---
