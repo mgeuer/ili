@@ -4,7 +4,7 @@ type: section
 ---
 
 
-## About Grayscale ##
+## About Grayscale
 
 Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.
 
