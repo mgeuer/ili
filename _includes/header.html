@@ -6,9 +6,17 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">Ili, Personal Trainer :)</h1>
                         <p class="intro-text">No Sport.<br>No Fun.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+						{% assign search = 'true' %}
+						{% for page in site.pages %}
+							{% if page.type == 'section' %}
+								{% if search == 'true' %}
+									{% assign search = 'false' %}
+									<a href="#{{page.title}}" class="btn btn-circle page-scroll">
+										<i class="fa fa-angle-double-down animated"></i>
+									</a>
+								{% endif %}
+							{% endif %}
+						{% endfor %}
                     </div>
                 </div>
             </div>
