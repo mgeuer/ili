@@ -20,7 +20,7 @@
 					{% for page in site.pages %}
 						{% if page.type == 'section' %}
 							<li>
-								<a class="page-scroll" href="#{{page.title}}">{{page.title}}</a>
+								<a class="page-scroll" href="#{{page.id}}">{{page.title}}</a>
 							</li>
 						{% endif %}
 					{% endfor %}

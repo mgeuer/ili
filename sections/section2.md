@@ -1,5 +1,6 @@
 ---
 title: Preise
+id: prices
 type: section
 ---
 

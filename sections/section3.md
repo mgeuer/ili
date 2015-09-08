@@ -1,5 +1,6 @@
 ---
 title: Kontakt
+id: contact
 type: section
 ---
 <h2>Kontakt</h2>

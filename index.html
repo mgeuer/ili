@@ -5,7 +5,7 @@ title: start
 
 	{% for page in site.pages %}
 		{% if page.type == 'section' %}
-			{% include section.html content=page.content title=page.title %}
+			{% include section.html content=page.content title=page.title id=page.id %}
 		{% endif %}
 	{% endfor %}
 	
