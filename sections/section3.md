@@ -1,19 +1,14 @@
 ---
-title: Contact
+title: Kontakt
 type: section
 ---
-<h2>Contact Start Bootstrap</h2>
-<p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-<p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-</p>
+<h2>Kontakt</h2>
+<p>Sie erreichen mich unter den folgenden Möglichkeiten</p>
 <ul class="list-inline banner-social-buttons">
 	<li>
-		<a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+		<a href="tel:+4912341234123" class="btn btn-default btn-lg"><span class="network-name">Telefon: XXX</span></a>
 	</li>
 	<li>
-		<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-	</li>
-	<li>
-		<a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+		<a href="https://plus.google.com/" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
 	</li>
 </ul>
